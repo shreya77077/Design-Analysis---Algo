@@ -43,7 +43,7 @@ int main() {
     for (int i = 0; i < n; i++)
         pq.push(nums[i]);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i ++)
         nums[i] = pq.pop();
 
     printArray("Sorted array is: ", nums, n);
